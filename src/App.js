@@ -114,7 +114,7 @@ function App() {
   }, [day]);
   return (
     <main className="bg-slate-300 min-h-screen flex justify-center items-start ">
-      <section className="w-11/12 transition-all duration-300 flex flex-col pb-20 items-start max-w-[400px] bg-white min-h-screen pt-12 relative">
+      <section className="lg:w-11/12 w-full transition-all duration-300 flex flex-col pb-20 items-start max-w-[400px] bg-white min-h-screen pt-12 relative">
         <h1 className="flex items-center justify-center border-t border-b mb-6 py-1 border-black font-semibold text-xl w-full">VINKA'S JOURNAL</h1>
         <Calendar
           onChange={setValue}
