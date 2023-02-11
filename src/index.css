@@ -4,7 +4,7 @@
 @layer base{
   .react-calendar { 
     width: 100%;
-    max-width: 450px;
+    max-width: 500px;
     background-color: #fff;
     color: #222;
     border-radius: 8px;
