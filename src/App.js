@@ -124,7 +124,7 @@ function App() {
         {isNewText && (
           <form
             onSubmit={(e) => handleSubmit(e)}
-            className="w-full flex flex-col items-center justify-center fixed top-0 left-1/2 -translate-x-1/2 bg-gray-300/10 backdrop-blur-xl h-screen max-w-[400px]"
+            className="w-full flex flex-col items-center justify-center fixed top-0 left-1/2 -translate-x-1/2 bg-gray-300/10 backdrop-blur-xl h-screen max-w-[500px]"
           >
             <FiX
               onClick={() => setIsNewText(false)}
@@ -170,7 +170,7 @@ function App() {
         {isEditText && (
           <form
             onSubmit={(e) => editSubmit(e)}
-            className="w-full flex flex-col items-center justify-center fixed top-0 left-1/2 -translate-x-1/2 bg-gray-300/10 backdrop-blur-xl h-screen max-w-[400px]"
+            className="w-full flex flex-col items-center justify-center fixed top-0 left-1/2 -translate-x-1/2 bg-gray-300/10 backdrop-blur-xl h-screen max-w-[500px]"
           >
             <FiX
               onClick={() => setIsEditText(false)}
